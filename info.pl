@@ -1,4 +1,9 @@
 #!/usr/bin/perl
+#
+# @title : CBInfo script 0.1.0
+# @maintainer: jinnstar@jinnfire.info
+# @date : 08/22/09
+# @comment: I do not claim to be the original author of this script, only made updates and changes to the code.
 use Switch;
 use strict;
 use File::Basename;
