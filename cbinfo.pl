@@ -3,7 +3,8 @@
 # @title : CBInfo script 0.1.0
 # @maintainer: jinnstar@jinnfire.info
 # @date : 22/08/09 17:29:45 
-# @comment: I do not claim to be the original author of this script, only made updates and changes to the code.
+# @comment: I make no claims to be the original author of this script, I have made changes, 
+#           updates and customizations to make it functional for the Crunchbang community
 use Switch;
 use strict;
 use File::Basename;
