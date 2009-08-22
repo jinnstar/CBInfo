@@ -27,17 +27,11 @@ Installation:
 1: ## Extract the CBInfo.tar.gz with:
    tar -xvzf CBInfo.tar.gz
     
-2:  ## Create a folder called bin/ in your home directory
-    mkdir ~/bin
+2:  ## Change to the CBInfo directory
+	cd CBInfo/ 
 
-3:  ## Copy the script to your new directory
-    cp CBInfo/cbinfo.pl ~/bin
+3:  ## Make the script executable  
+	chmod +x cbinfo.pl
 
-4:  ## Switch to the new directory
-    cd ~/bin
-
-5:  ## Make the script executable  
-    chmod +x cbinfo.pl
-
-6:  ## Run the script
-    ./cbinfo.pl
+4:  ## Run the script
+	./cbinfo.pl
