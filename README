@@ -1,5 +1,5 @@
 ---------------------------------
-CBInfo Script
+CBInfo Script - A Screenshot info script
 ---------------------------------
 Prints your current Openbox, GTK, Icon and Font themes then takes a screenshot
 after a 5 second delay. The screenshot is then saved to your home directory. 
