@@ -1,0 +1,36 @@
+---------------------------------
+Crunchbang Screenshot Info Script
+---------------------------------
+Prints your current Openbox, GTK, Icon and Font themes then takes a screenshotafter a 5 second delay. The screenshot is then saved to your home directory. The current config is setup for Crunchbang Openbox users,however the distribution, window manager and desktop environment can be changed by editing info.pl. 
+
+This script is provided with absolutely no warranty, by running this script you
+acknowledge that it may blow up your computer, shave your dog, or wake your 
+neighbors . If you modify this script I'd love to see what youv'e done. 
+Feel free to email me at jinnstar@jinnfire.info.
+
+---------------------------------
+Requirements:
+---------------------------------
+Perl - most *nix systems already have this
+Scrot - the script uses this app to take the actual screenshots.
+
+---------------------------------
+Installation:
+---------------------------------
+1: ## Extract the CBInfo.tar.gz with:
+   tar -xvzf CBInfo.tar.gz
+    
+2:  ## Create a folder called bin/ in your home directory
+    mkdir ~/bin
+
+3:  ## Copy the script to your new directory
+    cp CBInfo/info.pl ~/bin
+
+4:  ## Switch to the new directory
+    cd ~/bin
+
+5:  ## Make the script executable  
+    chmod +x info.pl
+
+6:  ## Run the script
+    ./info.pl
