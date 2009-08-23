@@ -24,8 +24,8 @@ Scrot - the script uses this app to take the actual screenshots.
 ---------------------------------
 Installation:
 ---------------------------------
-1: ## Extract the CBInfo.tar.gz with:
-   tar -xvzf CBInfo.tar.gz
+1:  ## Extract the CBInfo.tar.gz with:
+    tar -xvzf CBInfo.tar.gz
     
 2:  ## Change to the CBInfo directory
 	cd CBInfo/ 
@@ -35,3 +35,6 @@ Installation:
 
 4:  ## Run the script
 	./cbinfo.pl
+	
+5:  ## Below is an optional alias entry for your .bashrc making it possible to run with the command 'cbinfo'
+    alias cbinfo='perl ~/CBInfo/cbinfo.pl'
