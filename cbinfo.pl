@@ -61,7 +61,7 @@ my %WMlist = ("Beryl", "beryl",
 ## Hash of DEs and the process they run ##     
 my %DElist = ("Gnome", "gnome-panel",
               "Xfce4", "xfce-mcs-manage",
-              "crunchbang", "openbox-session",
+              "openbox", "openbox-session",
               "KDE", "ksmserver");
 
 ## Get Kernel version ##
@@ -325,7 +325,7 @@ if ( $display =~ m/[Theme, Icons, Font, Background]/) {
       close(FILE);
   
     }
-    case "crunchbang" {
+    case "openbox" {
       my @files = ("$ENV{HOME}/.gtkrc-2.0", "$ENV{HOME}/.gtkrc.mine",);
       foreach my $file (@files) {
         if ( -e $file ) {
